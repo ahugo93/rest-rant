@@ -13,8 +13,7 @@ function show (data) {
             <p>No comments yet!</p>
             <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
             Edit 
-            </a>   
-            <br /> 
+            </a>    
             <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
               <button type="submit" className="btn btn-danger"><i class="fa fa-trash"> Delete </i>
                 
