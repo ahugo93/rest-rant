@@ -7,8 +7,14 @@
     "node": "16.14.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahugo93/rest-rant.git"
+  },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
